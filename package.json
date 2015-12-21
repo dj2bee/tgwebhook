@@ -1,0 +1,28 @@
+{
+  "name": "tgwebhook",
+  "version": "1.0.0",
+  "description": "Telegram-Bot with Webhook-Endpoint for processing GitHub-Messages",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dj2bee/tgwebhook.git"
+  },
+  "keywords": [
+    "Telegram-Bot",
+    "GitHub",
+    "Webhook"
+  ],
+  "author": "dj2bee",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dj2bee/tgwebhook/issues"
+  },
+  "homepage": "https://github.com/dj2bee/tgwebhook#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "node-telegram-bot-api": "^0.17.0"
+  }
+}
